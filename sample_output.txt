@@ -1,0 +1,155 @@
+CSV directory: mushrooms.csv
+Enter training set proportion (0, 1]: .05
+Enter caution [0, 10] (this value skews the predictions in favor of poisonous as it increases,
+making the predictions less accurate, but less likely to classify a poisonous mushroom as edible;
+a value of 0 leaves the prediction neutral, but the dataset skews towards poisonous mushrooms being misclassified): 3
+Verbose? (y/n): n
+******** RATIOS *********
+cap-shape:
+	x : 110 to 84 : 1.3095238095238095
+	b : 24 to 3 : 8.0
+	s : 1 to 0 : 10.0
+	f : 75 to 73 : 1.0273972602739727
+	k : 9 to 28 : -3.111111111111111
+cap-surface:
+	s : 60 to 74 : -1.2333333333333334
+	y : 77 to 79 : -1.025974025974026
+	f : 82 to 35 : 2.342857142857143
+cap-color:
+	n : 66 to 44 : 1.5
+	y : 20 to 34 : -1.7
+	g : 46 to 36 : 1.2777777777777777
+	w : 43 to 19 : 2.263157894736842
+	e : 35 to 41 : -1.1714285714285715
+	p : 3 to 4 : -1.3333333333333333
+	b : 3 to 9 : -3.0
+	c : 3 to 1 : 3.0
+bruises:
+	t : 149 to 37 : 4.027027027027027
+	f : 70 to 151 : -2.157142857142857
+odor:
+	p : 0 to 12 : -10.0
+	a : 23 to 0 : 10.0
+	n : 177 to 8 : 22.125
+	l : 19 to 0 : 10.0
+	c : 0 to 6 : -10.0
+	f : 0 to 103 : -10.0
+	y : 0 to 27 : -10.0
+	s : 0 to 29 : -10.0
+	m : 0 to 3 : -10.0
+gill-attachment:
+	f : 211 to 186 : 1.1344086021505377
+	a : 8 to 2 : 4.0
+gill-spacing:
+	c : 158 to 183 : -1.1582278481012658
+	w : 61 to 5 : 12.2
+gill-size:
+	n : 8 to 101 : -12.625
+	b : 211 to 87 : 2.425287356321839
+gill-color:
+	k : 12 to 2 : 6.0
+	n : 46 to 5 : 9.2
+	p : 38 to 28 : 1.3571428571428572
+	w : 60 to 15 : 4.0
+	g : 11 to 25 : -2.272727272727273
+	h : 12 to 28 : -2.3333333333333335
+	u : 32 to 2 : 16.0
+	b : 0 to 80 : -10.0
+	e : 5 to 0 : 10.0
+	r : 0 to 1 : -10.0
+	o : 2 to 0 : 10.0
+	y : 1 to 2 : -2.0
+stalk-shape:
+	e : 86 to 88 : -1.0232558139534884
+	t : 133 to 100 : 1.33
+stalk-root:
+	e : 39 to 12 : 3.25
+	c : 29 to 4 : 7.25
+	r : 10 to 0 : 10.0
+	b : 102 to 90 : 1.1333333333333333
+	? : 39 to 82 : -2.1025641025641026
+stalk-surface-above-ring:
+	s : 186 to 75 : 2.48
+	f : 20 to 11 : 1.8181818181818181
+	k : 13 to 101 : -7.769230769230769
+	y : 0 to 1 : -10.0
+stalk-surface-below-ring:
+	s : 180 to 76 : 2.3684210526315788
+	y : 10 to 6 : 1.6666666666666667
+	f : 17 to 10 : 1.7
+	k : 12 to 96 : -8.0
+stalk-color-above-ring:
+	w : 147 to 78 : 1.8846153846153846
+	p : 32 to 68 : -2.125
+	g : 27 to 0 : 10.0
+	b : 0 to 17 : -10.0
+	n : 0 to 21 : -10.0
+	e : 5 to 0 : 10.0
+	o : 8 to 0 : 10.0
+	c : 0 to 3 : -10.0
+	y : 0 to 1 : -10.0
+stalk-color-below-ring:
+	w : 149 to 88 : 1.6931818181818181
+	p : 30 to 58 : -1.9333333333333333
+	g : 27 to 0 : 10.0
+	n : 1 to 18 : -18.0
+	b : 0 to 19 : -10.0
+	e : 4 to 0 : 10.0
+	y : 0 to 2 : -10.0
+	o : 8 to 0 : 10.0
+	c : 0 to 3 : -10.0
+veil-type:
+	p : 219 to 188 : 1.1648936170212767
+veil-color:
+	w : 211 to 187 : 1.1283422459893049
+	n : 3 to 0 : 10.0
+	o : 5 to 0 : 10.0
+	y : 0 to 1 : -10.0
+ring-number:
+	o : 185 to 180 : 1.0277777777777777
+	t : 34 to 5 : 6.8
+	n : 0 to 3 : -10.0
+ring-type:
+	p : 172 to 43 : 4.0
+	e : 46 to 83 : -1.8043478260869565
+	l : 0 to 59 : -10.0
+	f : 1 to 0 : 10.0
+	n : 0 to 3 : -10.0
+spore-print-color:
+	k : 84 to 12 : 7.0
+	n : 92 to 6 : 15.333333333333334
+	u : 1 to 0 : 10.0
+	h : 1 to 79 : -79.0
+	w : 35 to 86 : -2.4571428571428573
+	r : 0 to 5 : -10.0
+	y : 2 to 0 : 10.0
+	o : 1 to 0 : 10.0
+	b : 3 to 0 : 10.0
+population:
+	s : 44 to 19 : 2.3157894736842106
+	v : 52 to 134 : -2.576923076923077
+	y : 67 to 31 : 2.161290322580645
+	n : 24 to 0 : 10.0
+	a : 22 to 0 : 10.0
+	c : 10 to 4 : 2.5
+habitat:
+	u : 3 to 14 : -4.666666666666667
+	m : 15 to 1 : 15.0
+	g : 75 to 44 : 1.7045454545454546
+	p : 10 to 33 : -3.3
+	d : 98 to 70 : 1.4
+	l : 9 to 26 : -2.888888888888889
+	w : 9 to 0 : 10.0
+
+Summing the weight of all property values to reach a conclusion, we would predict edibility with the following success:
+7759 predictions correct out of 8124 mushrooms, for 0.9550713934022649% accuracy with a 5.0% training set and a caution value of 3.0
+112 edible mushrooms were misclassified as poisonous, and 253 poisonous mushrooms were misclassified as edible.
+This methodology is flexible, and for datasets in general should be a good approach. In this case, it works well for training sets down to 0.15%. If the CSV file was changed, as long as the characteristics correlate, this should still work.
+
+However, for this particular dataset, odor is the strongest single indicator;
+odors 'a' and 'l' occur only for edible mushrooms, odors 'p','f', 'c', 'y', 's', and 'm' occur exclusively on poisonous mushrooms, 
+and odor n, the most common odor, occurs 28 times more often for edible mushrooms than for poisonous ones (3408 to 120).
+Using exclusively odor to make the determination, we would reach the following conclusions: 
+8004 predictions correct out of 8124 mushrooms, for 0.9852289512555391% accuracy
+
+Process finished with exit code 0
